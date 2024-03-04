@@ -1,18 +1,5 @@
 //clerkid,email,username,photo,firstname,lastname,balance,planId,credit balance
-import { Schema, model, models } from "mongoose"
-
-export interface User extends Document {
-    clerkId: string;
-    email: string;
-    username: string;
-    photo: string;
-    firstName?: string;
-    lastName?: string;
-    planId: number;
-    creditBalance: number;
-  }
-  
-
+import { Schema, model, models } from "mongoose";
 
 const UserSchema = new Schema({
   clerkId: {

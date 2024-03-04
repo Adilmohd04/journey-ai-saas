@@ -1,14 +1,5 @@
 import { Schema, model, models } from "mongoose";
-import { User } from "./user.model";
 
-export interface Transaction  extends Document{
-    createdAt: Date;
-    stripeId: string;
-    amount: number;
-    plan?: string;
-    credits?: number;
-    buyer: number;
-  }
 const TransactionSchema = new Schema({
   createdAt: {
     type: Date,
