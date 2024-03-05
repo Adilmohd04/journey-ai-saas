@@ -9,7 +9,7 @@ import { aspectRatioOptions } from "@/constants";
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
-//webhook to connect clerk data with mangodb datai event trigering  request to paypoad ->event proccesing then to database
+
 // ERROR HANDLER
 export const handleError = (error: unknown) => {
   if (error instanceof Error) {
