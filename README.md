@@ -1,4 +1,4 @@
-deployment: journey-ai-saas.vercel.app
+deployment: [journey-ai-saas.vercel.app](https://journey-ai-saas.vercel.app/)
 
 
 ## Deploy on Vercel
